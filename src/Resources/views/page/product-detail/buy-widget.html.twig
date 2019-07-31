@@ -1,0 +1,27 @@
+{% sw_extends '@Storefront/page/product-detail/buy-widget.html.twig' %}
+
+{% block page_product_detail_ordernumber_container %}
+
+    {{ parent() }}
+
+    {% block mill_page_product_detail_ean_container %}
+
+        {% if page.product.ean %}
+
+            <div class="product-detail-ordernumber-container">
+
+                <span class="product-detail-ordernumber-label">
+                    {{ "mill-product-ean.detail.eanLabel"|trans }}
+                </span>
+
+                <span class="product-detail-ordernumber" itemprop="{{ page.millProductEan.itemProp }}">
+                    {{ page.product.ean }}
+                </span>
+
+            </div>
+
+        {% endif %}
+
+    {% endblock %}
+
+{% endblock %}

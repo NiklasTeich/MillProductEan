@@ -1,0 +1,31 @@
+{
+  "name": "mill/product-ean",
+  "description": "Plugin to display the ean on the detail page",
+  "version": "v1.0.0",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MILLENWORLD"
+    }
+  ],
+  "require": {
+    "shopware/core": "*"
+  },
+  "extra": {
+    "shopware-plugin-class": "Mill\\ProductEan\\MillProductEan",
+    "label": {
+      "de-DE": "EAN auf Produktseite",
+      "en-GB": "EAN on product page"
+    },
+    "description": {
+      "de-DE": "Plugin für die EAN Anzeige auf der Detailseite",
+      "en-GB": "Plugin to display the EAN on the detail page"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Mill\\ProductEan\\": "src/"
+    }
+  }
+}
