@@ -11,3 +11,6 @@
 - fixed shopware 6.1 storefront namespace
 - added storefront styles
 - added required js dist
+
+# 1.0.3
+- Shopware 6.3 support

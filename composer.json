@@ -1,7 +1,7 @@
 {
   "name": "mill/product-ean",
   "description": "Plugin to display the ean on the detail page",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "shopware-platform-plugin",
   "license": "proprietary",
   "authors": [
@@ -21,6 +21,14 @@
     "description": {
       "de-DE": "Plugin für die EAN Anzeige auf der Detailseite",
       "en-GB": "Plugin to display the EAN on the detail page"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://www.millenworld.de",
+      "en-GB": "https://www.millenworld.de"
+    },
+    "supportLink": {
+      "de-DE": "https://www.millenworld.de",
+      "en-GB": "https://www.millenworld.de"
     }
   },
   "autoload": {
